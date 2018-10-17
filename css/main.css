@@ -1,52 +1,66 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
 #narwhal-body {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1908.791px;
   stroke-dashoffset: 1908.791px;
 }
 
 #narwhal-eye {
-  animation: oppacity 2s linear forwards;
+  animation: oppacity 1s linear forwards;
+  opacity: 0;
+}
+
+h1 {
+  color: #fff;
+  z-index: 5;
+  bottom: 50%;
+  left: 50px;
+  max-width: 175px;
+  animation: oppacity 1s linear forwards;
   opacity: 0;
 }
 
 #rainbow-red {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1243.044px;
   stroke-dashoffset: 1243.044px;
 }
 
 #rainbow-orange {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1366.26px;
   stroke-dashoffset: 1366.26px;
 }
 
 #rainbow-yellow {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1483.352px;
   stroke-dashoffset: 1483.352px;
 }
 
 #rainbow-green {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1596.043px;
   stroke-dashoffset: 1596.043px;
 }
 
 #rainbow-blue {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1705.479px;
   stroke-dashoffset: 1705.479px;
 }
 
 #rainbow-indigo {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1812.502px;
   stroke-dashoffset: 1812.502px;
 }
 
 #rainbow-violet {
-  animation: offset 2s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1917.692px;
   stroke-dashoffset: 1917.692px;
 }
