@@ -5,7 +5,8 @@
 }
 
 #narwhal-eye {
-
+  animation: oppacity 2s linear forwards;
+  opacity: 0;
 }
 
 #rainbow-red {
@@ -54,6 +55,22 @@
 
   to {
     stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes oppacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 
 }
